@@ -10,17 +10,14 @@ export const materialTheme = createMuiTheme({
     primary: {
       light: theme.greyLight,
       main: theme.grey,
-      dark: theme.contrast,
     },
     secondary: {
       light: theme.greyLight,
       main: theme.grey,
-      dark: theme.contrast,
     },
     info: {
       light: theme.greyLight,
       main: theme.grey,
-      dark: theme.contrast,
     },
   },
   typography: {

@@ -30,11 +30,10 @@ function lowerBound(range: number[]) {
 //colors
 const black = '#000';
 const white = '#fff';
-const contrast = '#c96657';
-const contrastLight = '#eee2da';
+const orange = '#f8bc4f';
+const pink = '#d31557';
 const grey = '#b9b5b1';
 const greyLight = '#f7f1ec';
-const pale = '#fcfaed';
 
 //fontFamily
 const josefin = `'Josefin Sans',  sans-serif`;
@@ -43,11 +42,10 @@ const openSans = `'Open Sans',  sans-serif`;
 export const theme = {
   white,
   black,
-  contrast,
-  contrastLight,
+  orange,
+  pink,
   grey,
   greyLight,
-  pale,
 
   josefin,
   openSans,

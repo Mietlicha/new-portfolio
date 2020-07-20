@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { theme } from './theme';
 
 const GlobalStyle = createGlobalStyle`
     *, *::before, *::after{
@@ -15,9 +16,8 @@ const GlobalStyle = createGlobalStyle`
         min-width: 100vw;
         min-height: 100vh;
         /* background-image: linear-gradient(109deg, #fa709a 0%, #fee140 100%); */
-        background-image: linear-gradient(110deg, rgb(248, 188, 79) 6%,rgb(211, 21, 87) 94%)
-
-    }
+        background-image: linear-gradient(110deg, ${theme.orange} 6%, ${theme.pink} 94%)
+       }
 `;
 
 export default GlobalStyle;
