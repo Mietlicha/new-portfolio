@@ -1,10 +1,13 @@
 import React from 'react';
 import GlobalTemplete from './utils/GlobalTemplete';
+import UpperWave from './components/atoms/UpperWave';
 
 function App() {
   return (
     <GlobalTemplete>
-      <h1>Ania</h1>
+      <>
+        <UpperWave />
+      </>
     </GlobalTemplete>
   );
 }
